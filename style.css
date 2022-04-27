@@ -1,0 +1,113 @@
+ /* style reset */
+ *{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Rowdies', cursive;
+    color: white;
+    background-image: url('image1.jpg');
+}
+
+.left{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+
+}
+.left img{
+    width: 136px;
+    filter: invert(100%);
+}
+.left div{
+    color: gold;
+    font-size: 22px;
+    line-height:17px;
+    text-align: center;
+}
+
+.mid{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 22px;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 1px 12px;;
+}
+
+
+.navbar li a:hover,.navbar li a:active {
+    text-decoration: underline;
+    color: rgb(22, 189, 255);
+    
+}
+.btn{
+
+    font-family:sans-serif ;
+    margin: 0px 9px;
+    background-color: rgb(250, 171, 171);
+    color: rgb(0, 0, 0);
+    padding: 7px 6px ;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size:16px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: #fff686;
+    color: #000000;
+}
+div.container{
+    border: 2px solid rgb(255, 128, 113);
+    margin: 173px 250px;
+    padding:30px 40px;
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 22px;
+}
+.form-group input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+    width:285px;
+    padding:6px;
+    border: 5px solid rgb(142, 255, 151);
+    margin: 11px auto;
+    border-radius: 13px;
+
+}
+.container h1{
+    text-align: center;
+    
+}
+.container button{
+    display: block;
+    width: 100px;
+    margin: 2px auto;
+}
+#head{
+    padding: 2px 0px;
+}
